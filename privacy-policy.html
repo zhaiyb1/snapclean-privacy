@@ -29,7 +29,7 @@
 </div>
 <ul data-page-node-id="bkmkCxlMdIxrucoUHOaZZW">
   <li data-page-node-id="PckYPSQuSomdgdq8TpIj2L"><strong data-page-node-id="uy5AswihBg3rM8vCBsKVxc">照片与视频（本地读取）</strong>：在你授权「照片与视频」权限后，我们在本机扫描重复照片、模糊照片、截图、连拍照片，用于向你展示可清理项。图像内容不会离开你的设备。</li>
-  <li data-page-node-id="jnQmvqA1GkNWmy1XM5HKux"><strong data-page-node-id="Q3422eJqwNEKGCVTamTO5j">已安装应用与缓存大小（可选）</strong>：仅在你主动开启系统的「使用情况访问」后，我们才会读取其他应用的缓存体积，用于显示「其他应用缓存」。不开这个权限，本应用的其余功能照常可用。</li>
+<li><strong>应用自身缓存（本地）</strong>：仅清理 SnapClean 自身产生的临时文件，不需要任何特殊权限。</li>
   <li data-page-node-id="6CP1jhciqTSQqLZtyXZqYv"><strong data-page-node-id="Eo4zIFS3IfRhFL9UIqzYHH">设备与系统信息（本地展示）</strong>：存储空间、内存、电池、处理器等状态，仅在你的设备上显示。</li>
   <li data-page-node-id="oePRJAKe1h6sSKQFOEWGFu"><strong data-page-node-id="REuDcIUV7CPLu0Q7EpTEft">安装包文件（本地）</strong>：扫描并列出你设备上的 .apk 文件，删除操作由你确认后执行。</li>
 </ul>
@@ -50,16 +50,15 @@
   <li data-page-node-id="QS0SbuAUL6ClczgdaSliL2">不收集姓名、手机号、通讯录、位置、短信或通话记录。</li>
   <li data-page-node-id="d8wcU8NA8ShEGPRXUbpOXy">不上传你的照片、视频或任何文件到服务器。</li>
   <li data-page-node-id="YOLij2FbzxtOfjmek2ENVx">不出售或出租你的个人数据。</li>
-  <li data-page-node-id="ZhI0Awu8O97x5Kx0lJ5Lmj">不使用「使用情况访问」数据用于广告或分析。</li>
+<li>不使用使用情况访问、无障碍服务或所有文件访问权限。</li>
 </ul>
 
 <h2 data-page-node-id="w4MD4nEaxh7l7IZu0ghFX9">六、权限说明</h2>
 <ul data-page-node-id="eJkSLNnyDPVzcVYyKoe2nw">
   <li data-page-node-id="EmhLYM81xmcHG9gD3xUU9H"><code data-page-node-id="NeDed1aEXEB9J3G001B6Rc">READ_MEDIA_IMAGES / READ_MEDIA_VIDEO</code>：扫描重复、模糊、截图类照片（Android 13+）。</li>
-  <li data-page-node-id="2DUU5t4h0lZE1PyDzokMkK"><code data-page-node-id="ktJFTAJyjJ4DUFdFeF4yyU">PACKAGE_USAGE_STATS</code>（使用情况访问）：<strong data-page-node-id="8stQnd4CaFNiHl7Yl63CXQ">可选</strong>，仅用于读取其他应用缓存体积。</li>
   <li data-page-node-id="2f3t0PXyiIokw5OKRzAq3H"><code data-page-node-id="vQ7GX44WouRI0xIjzpp2KV">KILL_BACKGROUND_PROCESSES</code>：按你的指令停止后台进程。</li>
   <li data-page-node-id="ko9AOjiZJC5rexk7cX85ED"><code data-page-node-id="cyxbAa7DPd9WQo2gsmNmZj">INTERNET / ACCESS_NETWORK_STATE</code>：仅用于请求与展示广告。</li>
-  <li data-page-node-id="5NckHE4uDoxMOfyeNFqZtK">本应用<strong data-page-node-id="dw76KAZVzoygFBqe2aEkP4">不申请</strong> <code data-page-node-id="TNOTDF5WxTGWqT6dQuFkgd">MANAGE_EXTERNAL_STORAGE</code>（所有文件访问权限）、<code data-page-node-id="NN4XtqDmhuzkyhQ9bBb3p4">QUERY_ALL_PACKAGES</code>，也不使用无障碍服务。</li>
+  <li data-page-node-id="5NckHE4uDoxMOfyeNFqZtK">本应用<strong data-page-node-id="dw76KAZVzoygFBqe2aEkP4">不申请</strong> <code data-page-node-id="TNOTDF5WxTGWqT6dQuFkgd">MANAGE_EXTERNAL_STORAGE</code>（所有文件访问权限）、<code data-page-node-id="NN4XtqDmhuzkyhQ9bBb3p4">QUERY_ALL_PACKAGES</code>，也不使用无障碍服务；也不申请 <code>PACKAGE_USAGE_STATS</code>（使用情况访问）。</li>
 </ul>
 
 <h2 data-page-node-id="IIx6BN470vAtfwmkwtWPNa">六、数据存储与删除</h2>
